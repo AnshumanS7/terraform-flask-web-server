@@ -35,8 +35,6 @@ terraform plan
 
 Apply Terraform Changes: Apply the Terraform configuration to create the infrastructure.
 
-bash
-
 terraform apply
 
 Access the Flask Application: Once the deployment is complete, access the Flask application by navigating to the public IP address of the EC2 instance in your web browser.
