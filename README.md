@@ -15,12 +15,8 @@ SSH key pair for accessing EC2 instances
 Usage
 Clone the Repository: Clone this repository to your local machine.
 
-bash
-
 git clone https://github.com/yourusername/flask-aws-terraform.git
 Navigate to the Project Directory: Change into the project directory.
-
-bash
 
 cd flask-aws-terraform
 Update Terraform Variables: Open main.tf file and update the following variables:
@@ -31,26 +27,24 @@ public_key_path: Path to your public key file.
 private_key_path: Path to your private key file.
 Initialize Terraform: Initialize Terraform in the project directory.
 
-bash
-
 terraform init
+
 Plan Terraform Deployment: Generate an execution plan.
 
-bash
-
 terraform plan
+
 Apply Terraform Changes: Apply the Terraform configuration to create the infrastructure.
 
 bash
 
 terraform apply
+
 Access the Flask Application: Once the deployment is complete, access the Flask application by navigating to the public IP address of the EC2 instance in your web browser.
 
 Clean Up Resources: After testing, you can clean up the resources to avoid incurring charges.
 
-bash
-
 terraform destroy
+
 Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
