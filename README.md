@@ -16,12 +16,12 @@ Usage
 Clone the Repository: Clone this repository to your local machine.
 
 bash
-Copy code
+
 git clone https://github.com/yourusername/flask-aws-terraform.git
 Navigate to the Project Directory: Change into the project directory.
 
 bash
-Copy code
+
 cd flask-aws-terraform
 Update Terraform Variables: Open main.tf file and update the following variables:
 
@@ -32,24 +32,24 @@ private_key_path: Path to your private key file.
 Initialize Terraform: Initialize Terraform in the project directory.
 
 bash
-Copy code
+
 terraform init
 Plan Terraform Deployment: Generate an execution plan.
 
 bash
-Copy code
+
 terraform plan
 Apply Terraform Changes: Apply the Terraform configuration to create the infrastructure.
 
 bash
-Copy code
+
 terraform apply
 Access the Flask Application: Once the deployment is complete, access the Flask application by navigating to the public IP address of the EC2 instance in your web browser.
 
 Clean Up Resources: After testing, you can clean up the resources to avoid incurring charges.
 
 bash
-Copy code
+
 terraform destroy
 Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
