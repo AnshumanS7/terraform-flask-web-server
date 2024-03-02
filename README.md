@@ -1,2 +1,2 @@
 # terraform-flask-web-server
-I built a simple flask app using Terraform
+I deployed a simple flask app using Terraform
