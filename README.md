@@ -15,7 +15,7 @@ SSH key pair for accessing EC2 instances
 Usage
 Clone the Repository: Clone this repository to your local machine.
 
-git clone https://github.com/yourusername/flask-aws-terraform.git
+git clone https://github.com/AnshumanS7/terraform-flask-web-server.git
 Navigate to the Project Directory: Change into the project directory.
 
 cd flask-aws-terraform
